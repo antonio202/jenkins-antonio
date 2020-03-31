@@ -1,15 +1,15 @@
 pipeline {
   agent any
   stages {
-    stage('Built') {
+    stage('primero') {
       steps {
-        echo 'Jenkins Pipeline'
+        echo 'Primer paso'
       }
     }
 
-    stage('Test2') {
+    stage('segundo') {
       steps {
-        echo 'Hola desde stage2'
+        echo 'Segundo paso'
       }
     }
 
